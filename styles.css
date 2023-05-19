@@ -9,6 +9,9 @@
 fieldset{
     margin: 16% 20% 5% 20%;
 }
+label{
+    text-align: center;
+}
 legend{
     border: 1px gray solid;
     padding:2px 8px 2px 4px;
@@ -62,4 +65,8 @@ legend{
 }
 input, button, textarea, legend{
     color: gray;
+}
+#comments_label{
+    text-align: left;
+    margin-left:10px;
 }

@@ -1,0 +1,65 @@
+.form_content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+    padding: 5% 20% 10% 20%;
+    color:gray;
+}
+fieldset{
+    margin: 16% 20% 5% 20%;
+}
+legend{
+    border: 1px gray solid;
+    padding:2px 8px 2px 4px;
+    margin-left: 10%;
+}
+.stat-date{
+    display:flex;
+    justify-content: space-between;
+}
+.stat, .date{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:50%;
+}
+.vl{
+    max-width:90%;
+}
+.opt{
+    display:flex;
+    justify-content: space-between;
+}
+.checks{
+    display:flex;
+}
+.cbl{
+    display:inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+.check_box{
+    width:50%;
+    height:50%;
+}
+.check_label{
+    display:flex;
+    width: 100%;
+    justify-content: space between;
+}
+#submit{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    border: 1px gray solid;
+}
+@media (min-width:700px){
+    fieldset{
+        max-width:450px;
+        margin: 100px auto 100px auto;
+    }
+}
+input, button, textarea, legend{
+    color: gray;
+}

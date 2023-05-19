@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>add user</legend>
+            <div class="form_content">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name">
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <div class="stat-date">
+                    <div class="stat">
+                        <label class='vl' for="status">Status:</label>
+                        <input class="vl" type="text" id="status">
+                    </div>
+                    <div class="date">
+                        <label class="vl" for="date">Date:</label>
+                        <input class="vl" type="date" id="date">
+                    </div>
+                </div>
+                <label for="lang">Choose your favorite language:</label>
+                <div class="opt">
+                     <div class="opt_group">
+                        <input type="radio" id="html" name="lang" value="HTML">
+                        <label for="html">HTML</label>
+                    </div>
+                    <div class="opt_group">
+                        <input type="radio" id="css" name="lang" value="CSS">
+                        <label for="css">CSS</label>
+                    </div>
+                    <div class="opt_group">
+                        <input type="radio" id="js" name="lang" value="JS">
+                        <label for="js">JS</label>
+                    </div>
+                </div>
+                <label for="comm">Comments: </label>
+                <textarea id="comm" name="comm">Add comments here...</textarea>
+                <div class="checks">
+                    <div class="check_label">
+                        <input class="check_box" type="checkbox" id="news">
+                        <label class="cbl" for="news">sign up for news</label>
+                    </div>
+                    <div class="check_label">
+                        <input class='check_box' type="checkbox" id="terms">
+                        <label class="cbl" for="terms">agree to terms</label>
+                    </div>
+                </div>
+                <button type="submit" id="submit">Submit</button>
+
+
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
